@@ -1,0 +1,130 @@
+body{
+    font-family: 'Playfair Display', serif;
+    display:flex;
+    justify-content:space-between;
+    width: 100%;
+    background-color: white;
+}
+header{
+    background-color: #38434d;
+}
+footer{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+nav{
+    flex:1;
+}
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+@media screen and (max-height:450px){
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+a:link{
+	color:#536878;
+	font-family: 'Playfair Display', serif;
+    text-decoration:none;
+}
+a:visited{
+	color:#38434d;
+	text-decoration:none;
+}
+a:active{
+	color:#653333;
+	text-decoration:none;
+}
+a:hover{
+	color:white;
+	background-color:#536878;
+	text-decoration:none;
+}
+h1{
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: #151b1f;
+    font-size: 36pt;
+}
+h2{
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: #718fa5;
+    font-size: 28pt;
+}
+h3{
+    font-family: 'Lora', serif;
+    text-align: center;
+    color: #653333;
+    font-size: 20pt;
+}
+p{
+    padding: 8px 8px 8px 32px;
+    text-align:center;
+    font-size: 16pt;
+}
+details{
+    text-align: center;
+}
+.icon-bar{
+	width:100%;
+	overflow:auto;
+}
+.icon-bar a{
+	float:left;
+	text-align:center; 
+	width:20%;
+	padding:12px 0;
+	transition: all 0.3s ease;
+    color: white;
+    background-color: #38434d;
+	font-size:36px;
+}
+.icon-bar a:hover{
+	background-color: #000;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%; text-align:right;}
+.col-12 {width: 100%;}

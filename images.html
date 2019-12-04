@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sea Shanty Lyrics" />
+<meta name="keywords" content="historical, sea, shanty, pirates, music, lyrics, ship" />
+<title>The History of Sea Shanties</title>
+<link rel="stylesheet" href="css/index.css" media="all"/>
+<link rel="stylesheet" href="css/print.css" media="print"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="images.html">Images</a>
+    <a href="lyrics.html">Lyrics</a>
+    <a href="https://open.spotify.com/playlist/3p22aU2NEvY8KErZAoWSJD?si=-Z5Ba--7RQSMmrJ0UUIcdg">Playlist</a>
+</nav>
+
+<nav id="main">
+    <header><span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <h2>Images</h2>
+    <br>
+    <br>
+    </header>
+    <br>
+    <section class="col-12">    
+        <a href="media/ship.jpg"><img alt="pirate ship" src="media/ship-thumbnail.jpg" style="width:400px;"></a>
+        <a href="media/net.jpg"><img alt="fisherman's net on a ship" src="media/net.jpg" style="width:400px;"></a>
+        <a href="media/map.jpg"><img alt="historical map" src="media/map.jpg" style="width:400px;"></a>
+        <br>
+        <a href="media/shipWheel.jpg"><img alt="pirate ship wheel" src="media/shipWheel-thumbnail.jpg" style="width:400px;"></a>
+        <a href="media/octopus.jpg"><img alt="sea octopus" src="media/octopus.jpg" style="width:400px;"></a>
+        <a href="media/sea.jpg"><img alt="sea waves" src="media/sea-thumbnail.jpg" style="width:400px;"></a>
+        <br>
+        <a href="media/treasure.jpg"><img alt="pirate ship" src="media/treasure-thumbnail.jpg" style="width:400px;"></a>
+        <a href="media/skullCrossbones.jpg"><img alt="pirate skull and crossbones" src="media/skullCrossbones.jpg" style="width:400px;"></a>
+        <a href="media/coins.jpg"><img alt="historical pirate coins" src="media/coins-thumbnail.jpg" style="width:400px;"></a>
+        <br>
+        <br>
+        <footer>
+                <div class="icon-bar">
+                    <p>
+                    <a href="https://en.wikipedia.org/wiki/Sea_shanty"><i class="fa fa-wikipedia-w"></i></a>
+                    <a href="https://shanty.rendance.org/lyrics/shanties.php"><i class="fa fa-beer"></i></a>
+                    <a href="http://www.contemplator.com/sea/"><i class="fa fa-anchor"></i></a>
+                    <a href="http://www.jsward.com/navigation/index.shtml"><i class="fa fa-ship"></i></a>
+                    <a href="mailto:kavana7@mail.nmc.edu"><i class="fa fa-envelope"></i></a></p>
+                </div><hr>
+                &copy; Miles Kavanagh</footer>
+</section>
+
+</nav>
+
+
+<script>
+    function openNav(){
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+    function closeNav(){
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
+</script>
+</body>
+</html>
